@@ -48,6 +48,7 @@ list(filter(Prime_number,range(1,101)))
 
 # 排序 升序降序复杂排序 见网址：http://www.cnblogs.com/whaben/p/6495702.html
 
+#装饰器：https://www.cnblogs.com/Egbertbaron/p/7242515.html
 ______________________________________________
 import functools
 def  log(func):
