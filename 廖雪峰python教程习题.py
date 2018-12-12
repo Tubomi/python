@@ -81,3 +81,6 @@ def now1():
     print("123")
 ——————————————————————————
 now1.__name__#log('xad')有text内容 则now1.__name__返回的是now1
+
+#关于小结：https://blog.csdn.net/gba_eagle/article/details/80764749
+#函数只在返回时调用
