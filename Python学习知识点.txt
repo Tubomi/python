@@ -1,0 +1,2 @@
+ Requests 的一些高级特性（Session,stream=True）
+http://docs.python-requests.org/zh_CN/latest/user/advanced.html
