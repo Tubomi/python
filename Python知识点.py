@@ -8,3 +8,5 @@ r = requests.get('https://pvp.qq.com/web201605/js/herolist.json', stream=True)
 with open("allhero.json", 'wb') as fd:
     for chunk in r.iter_content(chunk_size=128):
         fd.write(chunk)
+正则的用法：
+https://www.cnblogs.com/deerchao/archive/2006/08/24/zhengzhe30fengzhongjiaocheng.html
