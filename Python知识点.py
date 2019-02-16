@@ -3,6 +3,8 @@ http://docs.python-requests.org/zh_CN/latest/user/advanced.html
 
  Python random模块sample、randint、shuffle、choice随机函数概念和应用(https://www.cnblogs.com/dylancao/p/8202888.html)
 
+selenium+python设置爬虫代理IP：https://blog.csdn.net/zwq912318834/article/details/78626739
+
 爬虫流处理：https://www.jianshu.com/p/0eff5fb281c0
 r = requests.get('https://pvp.qq.com/web201605/js/herolist.json', stream=True)
 with open("allhero.json", 'wb') as fd:
