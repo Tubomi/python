@@ -7,6 +7,7 @@ Selenium
 官网 http://www.seleniumhq.org/
 GitHub https://github.com/SeleniumHQ/selenium
 文档 http://selenium-python.readthedocs.io/
+中文文档：https://selenium-python-zh.readthedocs.io/en/latest/index.html
     
 拉勾获取页面例子：https://www.jianshu.com/p/61dfbc3cd683
 计算程序运行时间的四种计算方法：https://blog.csdn.net/asialee_bird/article/details/79673860
