@@ -1,4 +1,5 @@
 Requests 的一些高级特性（Session,stream=True）
+[^...] 不在[]中的字符：[^abc] 匹配除了a,b,c之外的字符。
 http://docs.python-requests.org/zh_CN/latest/user/advanced.html
 在selenium中设置代理ip：1.https://www.cnblogs.com/nail/p/6616417.html
 selenium+python设置爬虫代理IP：https://blog.csdn.net/zwq912318834/article/details/78626739
