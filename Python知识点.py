@@ -1,30 +1,25 @@
 Requests 的一些高级特性（Session,stream=True）
+[^...] 不在[]中的字符：[^abc] 匹配除了a,b,c之外的字符。
 http://docs.python-requests.org/zh_CN/latest/user/advanced.html
+在selenium中设置代理ip：1.https://www.cnblogs.com/nail/p/6616417.html
+selenium+python设置爬虫代理IP：https://blog.csdn.net/zwq912318834/article/details/78626739
+https://blog.csdn.net/weixin_36279318/article/details/79475388
+Selenium
+官网 http://www.seleniumhq.org/
+GitHub https://github.com/SeleniumHQ/selenium
+文档 http://selenium-python.readthedocs.io/
+中文文档：https://selenium-python-zh.readthedocs.io/en/latest/index.html
+    
+拉勾获取页面例子：https://www.jianshu.com/p/61dfbc3cd683
+计算程序运行时间的四种计算方法：https://blog.csdn.net/asialee_bird/article/details/79673860
+Python random模块sample、randint、shuffle、choice随机函数概念和应用(https://www.cnblogs.com/dylancao/p/8202888.html)
+词云和jieba:https://blog.csdn.net/fontthrone/article/details/72782971
 
- Python random模块sample、randint、shuffle、choice随机函数概念和应用(https://www.cnblogs.com/dylancao/p/8202888.html)
 
-Python标准库中的random函数，可以生成随机浮点数、整数、字符串，甚至帮助你随机选择列表序
-
-列中的一个元素，打乱一组数据等。
-
-random中的一些重要函数的用法：
-
-1 )、random() 返回0<=n<1之间的随机实数n；
-2 )、choice(seq) 从序列seq中返回随机的元素；
-3 )、getrandbits(n) 以长整型形式返回n个随机位；
-4 )、shuffle(seq[, random]) 原地指定seq序列；
-5 )、sample(seq, n) 从序列seq中选择n个随机且独立的元素；
-
-　详细介绍：
-
-random.random()函数是这个模块中最常用的方法了，它会生成一个随机的浮点数，范围是在0.0~1.0之间。
-
-random.uniform()正好弥补了上面函数的不足，它可以设定浮点数的范围，一个是上限，一个是下限。
-
-random.randint()随机生一个整数int类型，可以指定这个整数的范围，同样有上限和下限值，python random.randint。
-
-random.choice()可以从任何序列，比如list列表中，选取一个随机的元素返回，可以用于字符串、列表、元组等。
-
-random.shuffle()如果你想将一个序列中的元素，随机打乱的话可以用这个函数方法。
-
-random.sample()可以从指定的序列中，随机的截取指定长度的片断，不作原地修改。
+爬虫流处理：https://www.jianshu.com/p/0eff5fb281c0
+r = requests.get('https://pvp.qq.com/web201605/js/herolist.json', stream=True)
+with open("allhero.json", 'wb') as fd:
+    for chunk in r.iter_content(chunk_size=128):
+        fd.write(chunk)
+正则的用法：
+https://www.cnblogs.com/deerchao/archive/2006/08/24/zhengzhe30fengzhongjiaocheng.html
