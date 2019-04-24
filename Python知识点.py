@@ -1,5 +1,6 @@
 【杂谈】那些酷炫的深度学习网络图怎么画出来的？:https://zhuanlan.zhihu.com/p/60146525
 机器学习算法的随机数据生成:https://www.cnblogs.com/pinard/p/6047802.html
+机器学习中的 precision、recall、accuracy、F1 Score:https://www.cnblogs.com/weedboy/p/7072010.html        
 pandas:http://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.cat.html
 Requests 的一些高级特性（Session,stream=True）
 正则：[^...] 不在[]中的字符：[^abc] 匹配除了a,b,c之外的字符。
